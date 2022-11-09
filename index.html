@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Home | ethereum.org</title>
+    <link rel="icon" type="image/x-icon" href="images/icon-144x144.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/55d59cd707.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid text-center">
+        <div class="row fixed-top" style="min-height: 76px; padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-lg bg-white">
+                <nav class="navbar navbar-light navbar-expand-lg border-bottom border-light" style="min-height: 76px;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo-header" src="./images/icon-144x144.png" alt="" width="35" height="35" style="margin-left: -1em;">
+                          </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark font-sans-serif mr-3"  href="#navbarSupportedContent" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Use Ethereum
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary animate slideIn">
+                                  <li><a class="dropdown-item mt-3 clr-hover-dropdown" href="https://ethereum.org/en/wallets/find-wallet/">Find wallet</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/get-eth/">Get ETH</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/dapps/">Decentralized apps (dapps)</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/layer-2/">Layer 2</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/nft/">Non-fungible tokens (NFTs)</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/defi/">Decentralized finance (DeFi)</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/dao/">Decentralized autonomous organisations (DAOs)</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/stablecoins/">Stablecoins</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/staking/">Stake ETH</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/run-a-node/">Run a node</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/social-networks/">Decentralized social networks</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/decentralized-identity/">Decentralized identity</a></li>
+                                  <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/desci/">Decentralized science (DeSci)</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark mr-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Learn
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary clr-hover-dropdown animate slideIn" style="min-width: 35em;">
+                                  <div class="row">
+                                    <div class="col">
+                                        <li class="dropdown-item font-weight-bold mt-3 hover-none">Start here</li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/learn/">Learn hub</a></li>
+                                        <li class="dropdown-item font-weight-bold pt-2 hover-none">Ethereum basics</li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/what-is-ethereum/">What is Ethereum?</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/eth/">What is ether (ETH)?</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/wallets/">Ethereum wallets</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/security/">Ethereum security and scam prevention</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/web3/">What is Web3?</a></li>
+                                        <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/smart-contracts/">Smart contracts</a></li>
+                                    </div>
+                                    <div class="col">
+                                        <li class="dropdown-item font-weight-bold mt-3 hover-none">Ethereum protocol</li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/energy-consumption/">Ethereum energy consumption</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/upgrades/">Ethereum upgrades</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/eips/">Ethereum Improvement Proposals</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/history/">History of Ethereum</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/whitepaper/">Ethereum Whitepaper</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/glossary/">Ethereum glossary</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/governance/">Ethereum governance</a></li>
+                                        <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/bridges/">Blockcain bridges</a></li>
+                                        <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/zero-knowledge-proofs/">Zero-knowledge proofs</a></li>
+                                    </div>
+                                  </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark mr-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Developers
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary clr-hover-dropdown animate slideIn">
+                                  <li><a class="dropdown-item mt-3 clr-hover-dropdown" href="https://ethereum.org/en/developers/">Developers's home</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/developers/docs/">Documentation</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/developers/tutorials/">Tutorials</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/developers/learning-tools/">Learn by coding</a></li>
+                                  <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/developers/local-environment/">Set up local environment</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark mr-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Enterprise
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary clr-hover-dropdown animate slideIn">
+                                  <li><a class="dropdown-item mt-3 clr-hover-dropdown" href="https://ethereum.org/en/enterprise/">Mainnet Ethereum</a></li>
+                                  <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/enterprise/private-ethereum/">Private Ethereum</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark mr-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Community
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary clr-hover-dropdown animate slideIn">
+                                  <li><a class="dropdown-item mt-3 clr-hover-dropdown" href="https://ethereum.org/en/community/">Community hub</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/online/">Online communities</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/events/">Ethereum events</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/get-involved/">Get involved</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/research/">Open research</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/grants/">Grants</a></li>
+                                  <li><a class="dropdown-item pt-2 clr-hover-dropdown" href="https://ethereum.org/en/community/support/">Ethereum support</a></li>
+                                  <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="https://ethereum.org/en/community/language-resources/">Language resources</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark mr-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  About me
+                                  <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start text-secondary clr-hover-dropdown animate slideIn">
+                                  <li><a class="dropdown-item mt-3 clr-hover-dropdown" href="aboutMe.html">About me</a></li>
+                                  <li><a class="dropdown-item pt-2 mb-3 clr-hover-dropdown" href="aboutClass.html">About the class</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-border form-control mt-2 me-2 border border-dark" type="search" placeholder="Search" aria-label="Search">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="language-hover ml-2 mr-2 bi bi-moon-fill" style="margin-top: 10px;" viewBox="0 0 16 16">
+                            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+                          </svg>
+                          <a href="https://ethereum.org/en/languages/" class="ml-3 language-hover" style="color: black; gap: 10px; display: flex; margin-top: 17px;">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="ml-2 bi bi-globe2"  viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                          </svg><p style="margin-top: -2px;">Languages</p></a>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row overflow-thing" style="height: 516px;">
+            <div class="col-sm" style="padding-left: 7.6px; padding-right: 7.6px;">
+                <img class="img-fluid" style="min-width: 635px; min-height: 500px; max-height: 635px; margin-top: -22px;" src="images/hero.webp">
+            </div>
+        </div>
+        <div class="row" style="min-height: 35px;  padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-lg">
+                
+            </div>
+        </div>
+        <div class="row" style="min-height: 25.6px;  padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-lg">
+                Ethereum
+            </div>
+        </div>
+        <div class="row" style="min-height: 214px;  padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-sm">
+
+            </div>
+            <div class="col-lg">
+                <h1 class="overflow-thing fw-bold pt-3 pb-2">Welcome to Ethereum</h1>
+                <h7 class="text-muted" style="font-size: 18px;">Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.</h7><br>
+                <a class="btn border border-dark btn-hover mt-4 mb-4" style="padding: 8px; padding-left: 16px; padding-right: 16px;" role="button" href="https://ethereum.org/en/learn/">Explore Ethereum</a>
+            </div>
+            <div class="col-sm">
+
+            </div>
+        </div>
+
+        <div class="row text-start" style="padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-lg bg-light" style="min-height: 1515.63px;">
+                <div class="row" style="min-height: 559.63px; margin-top: 16px; margin-left: 32px; margin-right: 32px;">
+                    <div class="col-md" style="margin-bottom: 48px; margin-top: 16px;">
+                        <h4 class="overflow-thing fs-2 mb-4" style="margin-left: 4.5rem; margin-top: 23%;">Get started</h4>
+                        <p class="fs-5" style="margin-left: 4.5rem;">ethereum.org is your portal into the world of Ethereum. The <br>
+                            tech is new and ever-evolving – it helps to have a guide. <br> 
+                            Here's what we recommend you do if you want to dive in.</p>
+                    </div>
+                    <div class="col-md" style="margin-bottom: 48px; margin-top: 16px;">
+                        <img class="img-fluid" src="images/hackathon_transparent.webp">
+                    </div>
+                </div>
+                
+                <div class="row" style="min-height: 876px; margin-left: 32px; margin-right: 32px;">
+                    <div class="col-lg" style="min-height: 438px;">
+                        <div class="col overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto my-3" style="height: 393.2px;">
+                            <a href="https://ethereum.org/en/wallets/find-wallet/">
+                                <div class="background-clr" style="padding-left: 24.5%;">
+                                  <img class="img-fluid" src="images/wallet-cropped.webp" height="250">
+                                </div>
+                                <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5">
+                                  <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Pick a wallet</p>
+                                  <p class="text-left ml-3">A wallet lets you connect to Ethereum and manage your funds.</p>
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="col-lg" style="min-height: 438px;">
+                        <div class="col overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto my-3" style="height: 393.2px;">
+                            <a href="https://ethereum.org/en/get-eth/">
+                                <div class="background-clr" style="padding-left: 24.5%;">
+                                  <img class="img-fluid" src="images/eth.webp" height="250" style="padding-bottom: 0.54em;">
+                                </div>
+                                <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5">
+                                  <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Get ETH</p>
+                                  <p class="text-left ml-3">A wallet lets you connect to Ethereum and manage your funds.</p>
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-lg" style="min-height: 438px;">
+                        <div class="col overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto my-3" style="height: 393.2px;">
+                            <a href="https://ethereum.org/en/dapps/">
+                                <div class="background-clr" style="padding-left: 24.5%;">
+                                  <img class="img-fluid" src="images/doge-computer.webp" height="250">
+                                </div>
+                                <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5">
+                                  <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Use a dapp</p>
+                                  <p class="text-left ml-3">Dapps are applications powered by Ethereum. See what you can do.</p>
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="col-lg" style="min-height: 438px;">
+                        <div class="col overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto my-3" style="height: 393.2px;">
+                            <a href="https://ethereum.org/en/developers/">
+                                <div class="background-clr" style="padding-left: 24.5%;">
+                                  <img class="img-fluid" src="images/developers-eth-blocks.webp" height="250">
+                                </div>
+                                <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5">
+                                  <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Start building</p>
+                                  <p class="text-left ml-3">If you want to start coding with Ethereum, we have documentation, tutorials, and more in our developer portal.</p>
+                                </div>
+                              </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg border-top border-dark background-clr-whatIs">
+                <img class="ml-3 mt-5 img-fluid" src="images/what-is-ethereum.webp" height="620">
+            </div>
+            <div class="col-lg text-start border-top border-dark background-clr-whatIs" style="padding-top: 12.5%;">
+                <h7 class="" style="font-size: 32px; font-weight: bold; padding-left: 13.5%;">What is Ethereum?</h7>
+                <p class="mt-2" style="font-size: 20px; padding-left: 13.5%;">
+                    Ethereum is a technology that's home to digital money, <br> 
+                    global payments, and applications. The community has built a <br>
+                    booming digital economy, bold new ways for creators to earn <br>
+                    online, and so much more. It's open to everyone, wherever <br>
+                    you are in the world – all you need is the internet.<br>
+                </p>
+                <a href="https://ethereum.org/en/what-is-ethereum/"><button class="btn btn-primary mt-2 mb-2" style="margin-left: 14%; padding: 9px 13px 9px 13px;">What is Ethereum?</button></a>
+                <a href="https://ethereum.org/en/eth/"><button type="button" class="btn border border-dark btn-hover ml-1 mt-2 mb-2 btn-money-hover" style="padding: 9px 13px 9px 13px;">More on digital money</button></a>
+                <div><br><br><br></div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg text-start border-top border-dark background-clr-impact" style="padding-top: 16%;">
+                <h7 class="" style="font-size: 32px; font-weight: bold; padding-left: 12%;">A fairer financial system</h7>
+                <p class="mt-2" style="font-size: 20px; padding-left: 12%;">
+                    Today, billions of people can’t open bank accounts, others have <br>
+                    their payments blocked. Ethereum's decentralized finance <br>
+                    (DeFi) system never sleeps or discriminates. With just an <br> 
+                    internet connection, you can send, receive, borrow, earn <br> 
+                    interest, and even stream funds anywhere in the world. <br>
+                </p>
+                <a href="https://ethereum.org/en/defi/"><button class="btn btn-primary mt-2 mb-2" style="margin-left: 12%; padding: 9px 13px 9px 13px;">Explore DeFi</button></a>
+                <div><br><br><br></div>
+            </div>
+            <div class="col-lg border-top border-dark background-clr-impact">
+                <img class="mt-3 img-fluid" src="images/impact_transparent.webp" height="620">
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg border-top border-dark background-clr-infrastructure">
+                <img class="ml-1 img-fluid" style="margin-top: -5%;" src="images/infrastructure_transparent.webp" height="620">
+            </div>
+            <div class="col-lg text-start border-top border-dark background-clr-infrastructure" style="padding-top: 15%;">
+                <h7 class="" style="font-size: 32px; font-weight: bold; padding-left: 11.5%;">The internet of assets</h7>
+                <p class="mt-2" style="font-size: 20px; padding-left: 11.5%;">
+                    Ethereum isn't just for digital money. Anything you can own <br>
+                    can be represented, traded and put to use as non-fungible <br>
+                    tokens (NFTs). You can tokenise your art and get royalties <br>
+                    automatically every time it's re-sold. Or use a token for <br>
+                    something you own to take out a loan. The possibilities are <br>
+                    growing all the time.<br>
+                </p>
+                <a href="https://ethereum.org/en/nft/"><button class="btn btn-primary mt-3 mb-2" style="margin-left: 12%; padding: 9px 13px 9px 13px;">More on NFTs</button></a>
+                <div><br><br><br></div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg text-start border-top border-dark background-clr-future" style="padding-top: 15.5%;">
+                <h7 class="" style="font-size: 32px; font-weight: bold; padding-left: 15%;">An open internet</h7>
+                <p class="mt-2" style="font-size: 20px; padding-left: 15%;">
+                    Today, we gain access to 'free' internet services by giving up <br>
+                    control of our personal data. Ethereum services are open by <br>
+                    default – you just need a wallet. These are free and easy to <br>
+                    set up, controlled by you, and work without any personal <br>
+                    info.<br>
+                </p>
+                <a href="https://ethereum.org/en/dapps/?category=technology"><button class="btn btn-primary mt-2 mb-2" style="margin-left: 15.5%; padding: 9px 13px 9px 13px;">Explore the open internet</button></a>
+                <a href="https://ethereum.org/en/wallets/"><button type="button" class="btn border border-dark btn-hover ml-1 mt-2 mb-2 btn-money-hover" style="padding: 9px 13px 9px 13px;">More on wallets</button></a>
+                <div><br><br><br></div>
+            </div>
+            <div class="col-lg border-top border-dark background-clr-future">
+                <img class="mt-5 img-fluid" src="images/future_transparent.webp" height="620">
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg border-top border-dark background-clr-codeSample px-5" style="padding-top: 10em;">
+                <img class="img-fluid" src="images/Code-example.webp" width="630px" alt="">
+            </div>
+            <div class="col-lg text-start border-top border-dark background-clr-codeSample" style="padding-top: 16%;">
+                <h7 class="" style="font-size: 32px; font-weight: bold; padding-left: 11.5%;">A new frontier for development</h7>
+                <p class="mt-2" style="font-size: 20px; padding-left: 11.5%;">
+                    Ethereum and its apps are transparent and open source. You <br>
+                    can fork code and re-use functionality others have already <br>
+                    built. If you don't want to learn a new language you can just <br>
+                    interact with open-sourced code using JavaScript and other <br>
+                    existing languages.<br>
+                </p>
+                <a href="https://ethereum.org/en/developers/"><button class="btn btn-primary mt-3 mb-2" style="margin-left: 11.5%; padding: 9px 13px 9px 13px;">Developer portal</button></a>
+                <div><br><br><br></div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-left: 7.6px; padding-right: 7.6px; min-height: 720px;">
+            <div class="col-lg bg-light">
+                <div class="row">
+                    <div class="col-lg text-start border-top border-dark" style="padding-left: 2em; padding-top: 4.3em; min-height: 216.8px;">
+                        <h3 class="overflow-hidden" style="font-size: 31px; margin-bottom: 1.3em;">Ethereum today</h3>
+                        <h7 style="font-size: 20px;">The latest network statistics</h7>
+                    </div>
+                </div>
+                <div class="row mx-4 my-5">
+                    <div class="col-lg border border-dark p-0 " style="min-height: 320px;">
+                        <img class="img-fluid" style="margin-top: -1px;" src="images/Eth_price.png">
+                    </div>
+                    <div class="col-lg border border-dark p-0 pt-1" style="min-height: 320px;">
+                        <img class="img-fluid" style="margin-top: -1px;" src="images/Transactions_eth.png">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-lg border border-dark p-0" style="min-height: 320px;">
+                        <img class="img-fluid" style="margin-top: -1px;" src="images/Value_defi_eth.png">
+                    </div>
+                    <div class="col-lg border border-dark p-0" style="min-height: 320px;">
+                        <img class="img-fluid" style="margin-top: -1px;" src="images/Nodes_eth.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="min-height: 156.9px; padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col-lg text-start my-auto bg-white ml-3" style="font-size: 32px; font-weight: 600;">
+                Explore ethereum.org
+            </div>
+        </div>
+
+        <div class="row" style="min-height: 1185.4px; padding-left: 7.6px; padding-right: 7.6px;">
+            <div class="col">
+                <div class="row mx-4 px-2" style="gap: 30px;">
+                    <div class="col-lg overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto mt-4 my-3 p-0">
+                        <a href="https://ethereum.org/en/upgrades/">
+                            <div class="background-clr">
+                              <img class="img-fluid" style="min-height: 260px;" src="images/merge.webp">
+                            </div>
+                            <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5" style="margin-bottom: -30px;">
+                              <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Level up your upgrade knowledge</p>
+                              <p class="text-left ml-3">
+                                The Ethereum roadmap consists of interconnected <br>
+                                upgrades designed to make the network more scalable, <br>
+                                secure, and sustainable.
+                              </p>
+                            </div>
+                          </a>
+                    </div>
+                    <div class="col-lg overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto mt-4 my-3 p-0">
+                        <a href="https://ethereum.org/en/enterprise/">
+                            <div class="background-clr">
+                              <img class="img-fluid" style="max-height: 260px;" src="images/infrastructure_transparent.webp">
+                            </div>
+                            <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5" style="margin-bottom: -30px;">
+                              <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">Ethereum for enterprise</p>
+                              <p class="text-left ml-3">
+                                See how Ethereum can open up new business models, <br>
+                                reduce your costs and future-proof your business.
+                              </p>
+                            </div>
+                          </a>
+                    </div>
+                    <div class="col-lg overflow-hidden hover-eth-utility boxshadow-cards border border-dark bg-white mx-auto mt-4 my-3 p-0">
+                        <a href="https://ethereum.org/en/community/">
+                            <div class="background-clr" style="padding-left: 14.5%;">
+                              <img class="img-fluid" style="min-height: 260px;" src="images/enterprise-eth.webp">
+                            </div>
+                            <div class="hover-eth-utility p-3 text-dark border-top border-cards pb-5" style="margin-bottom: -30px;">
+                              <p class="text-left ml-3 mt-3" style="font-size: 24px; font-weight: 600;">The Ethereum community</p>
+                              <p class="text-left ml-3">
+                                Ethereum is all about community. It's made up of <br>
+                                people from all different backgrounds and interests. See <br>
+                                how you can join in.
+                              </p>
+                            </div>
+                          </a>
+                    </div>
+                </div>
+                <div class="row px-4 overflow-hidden" style="min-height: 485px; padding: 1em; margin-top: 128px; margin-bottom: 64px;">
+                    <div class="row rounded background-clr-Contribute mx-auto p-0">
+                        <div class="col-lg text-start">
+                            <div class="text-dark" style="margin-top: 10em; margin-left: 5em;">
+                                <p class="text-left ml-2" style="font-size: 32px; font-weight: 600;">Contribute to ethereum.org</p>
+                                <p class="text-left ml-2 mt-4" style="font-size: 19px; color: gray;">
+                                    This website is open source with hundreds of community <br>
+                                    contributors. You can propose edits to any of the content on this site, <br>
+                                    suggest awesome new features, or help us squash bugs.<br>
+                                    <a href="https://ethereum.org/en/contributing/"><button class="btn btn-primary mt-4 mb-2" style="padding: 8px 12px 8px 12px;">More on contributing</button></a>
+                                    <a href="https://github.com/ethereum/ethereum-org-website"><button type="button" class="btn border border-dark btn-hover ml-1 mt-4 mb-2 btn-money-hover" style="padding: 7px 16px 7px 16px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-github mr-1 my-auto github-on-hover" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                        </svg>
+                                        GitHub
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right mr-1 my-auto" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                                        </svg>
+                                        </button>
+                                    </a>
+                                    <div><br><br><br><br><br><br></div>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <img class="img-fluid" src="images/finance_transparent.webp" width="600px" style="margin-top: -3em;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mx-4 text-start">
+                <div class="row" style="min-height: 75.2px; padding-left: 7.6px; padding-right: 7.6px;">
+                    <div class="col-lg pt-5" style="font-size: 14px; color: rgb(117, 116, 116);">
+                        Website last updated: October 7, 2022
+                    </div>
+                    <div class="col-lg">
+
+                    </div>
+                    <div class="col-2 pt-5" >
+                        <a href="https://github.com/ethereum/ethereum-org-website">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="#959799" class="ml-2 bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/ethdotorg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="#959799" class="ml-2 bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="#959799" class="ml-2 bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                            </svg>
+                        </a>
+                        <a href="https://discord.com/invite/CetY6Y4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="#959799" class="ml-2 bi bi-discord" viewBox="0 0 16 16">
+                                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" style="gap: 100px; font-size: 14px; min-height: 630.3px; padding-left: 7.6px; padding-right: 7.6px;">
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">Use Ethereum</h7><br><br>
+                        <a href="https://ethereum.org/en/wallets/find-wallet/" class="language-hover" style="color: black;">Find wallet</a><br><br>
+                        <a href="https://ethereum.org/en/get-eth/" class="language-hover" style="color: black;">Get ETH</a><br><br>
+                        <a href="https://ethereum.org/en/dapps/" class="language-hover" style="color: black;">Decentralized applications (dapps)</a><br><br>
+                        <a href="https://ethereum.org/en/layer-2/" class="language-hover" style="color: black;">Layer 2</a><br><br>
+                        <a href="https://ethereum.org/en/run-a-node/" class="language-hover" style="color: black;">Run a node</a><br><br>
+                        <a href="https://ethereum.org/en/stablecoins/" class="language-hover" style="color: black;">Stablecoins</a><br><br>
+                        <a href="https://ethereum.org/en/staking/" class="language-hover" style="color: black;">Stake ETH</a>
+                    </div>
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">Learn</h7><br><br>
+                        <a href="https://ethereum.org/en/what-is-ethereum/" class="language-hover" style="color: black;">What is Ethereum?</a><br><br>
+                        <a href="https://ethereum.org/en/eth/" class="language-hover" style="color: black;">What is ether (ETH)?</a><br><br>
+                        <a href="https://ethereum.org/en/wallets/" class="language-hover" style="color: black;">Ethereum wallets</a><br><br>
+                        <a href="https://ethereum.org/en/learn/" class="language-hover" style="color: black;">Community guides and resources</a><br><br>
+                        <a href="https://ethereum.org/en/history/" class="language-hover" style="color: black;">History of Ethereum</a><br><br>
+                        <a href="https://ethereum.org/en/whitepaper/" class="language-hover" style="color: black;">Ethereum Whitepaper</a><br><br>
+                        <a href="https://ethereum.org/en/upgrades/" class="language-hover" style="color: black;">Ethereum upgrades</a><br><br>
+                        <a href="https://ethereum.org/en/security/" class="language-hover" style="color: black;">Ethereum security and scam prevention</a><br><br>
+                        <a href="https://ethereum.org/en/glossary/" class="language-hover" style="color: black;">Ethereum glossary</a><br><br>
+                        <a href="https://ethereum.org/en/governance/" class="language-hover" style="color: black;">Ethereum governance</a><br><br>
+                        <a href="https://ethereum.org/en/bridges/" class="language-hover" style="color: black;">Blockchain bridges</a><br><br>
+                        <a href="https://ethereum.org/en/zero-knowledge-proofs/" class="language-hover" style="color: black;">Zero-knowledge proofs</a><br><br>
+                        <a href="https://ethereum.org/en/energy-consumption/" class="language-hover" style="color: black;">Ethereum energy consumption</a><br><br>
+                        <a href="https://ethereum.org/en/web3/" class="language-hover" style="color: black;">What is Web3?</a><br><br>
+                        <a href="https://ethereum.org/en/eips/" class="language-hover" style="color: black;">Ethereum Improvement Proposals</a><br><br><br><br>
+                    </div>
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">Developers</h7><br><br>
+                        <a href="https://ethereum.org/en/developers/" class="language-hover" style="color: black;">Get started</a><br><br>
+                        <a href="https://ethereum.org/en/developers/docs/" class="language-hover" style="color: black;">Documentation</a><br><br>
+                        <a href="https://ethereum.org/en/developers/tutorials/" class="language-hover" style="color: black;">Tutorials</a><br><br>
+                        <a href="https://ethereum.org/en/developers/learning-tools/" class="language-hover" style="color: black;">Learning by code</a><br><br>
+                        <a href="https://ethereum.org/en/developers/local-environment/" class="language-hover" style="color: black;">Set up local environment</a>
+                    </div>
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">Eco system</h7><br><br>
+                        <a href="https://ethereum.org/en/community/" class="language-hover" style="color: black;">Community hub</a><br><br>
+                        <a href="https://ethereum.org/en/foundation/" class="language-hover" style="color: black;">Ethereum Foundation</a><br><br>
+                        <a href="https://blog.ethereum.org/" class="language-hover" style="color: black;">Ethereum Foundation Blog
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                        <br><br>
+                        <a href="https://esp.ethereum.foundation/" class="language-hover" style="color: black;">Ethereum Support Program
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                        <br><br>
+                        <a href="https://ethereum.org/en/bug-bounty/" class="language-hover" style="color: black;">Ethereum bug bounty program</a><br><br>
+                        <a href="https://ethereum.org/en/community/grants" class="language-hover" style="color: black;">Ecosystem Grant Programs</a><br><br>
+                        <a href="https://ethereum.org/en/assets/" class="language-hover" style="color: black;">Ethereum brand assets</a><br><br>
+                        <a href="https://devcon.org/" class="language-hover" style="color: black;">Devcon
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a>
+                        
+                    </div>
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">Enterprise</h7><br><br>
+                        <a href="https://ethereum.org/en/enterprise/" class="language-hover" style="color: black;">Mainnet Ethereum</a><br><br>
+                        <a href="https://ethereum.org/en/enterprise/private-ethereum/" class="language-hover" style="color: black;">Private Ethereum</a><br><br>
+                        <a href="https://ethereum.org/en/enterprise/" class="language-hover" style="color: black;">Enterprise</a>
+                    </div>
+                    <div class="col-md mt-5">
+                        <h7 class="fw-bold">About ethereum.org</h7><br><br>
+                        <a href="https://ethereum.org/en/about/" class="language-hover" style="color: black;">About us</a><br><br>
+                        <a href="https://ethereum.org/en/about/#open-jobs" class="language-hover" style="color: black;">Jobs</a><br><br>
+                        <a href="https://ethereum.org/en/contributing/" class="language-hover" style="color: black;">contributing</a><br><br>
+                        <a href="https://ethereum.org/en/languages/" class="language-hover" style="color: black;">Language support</a><br><br>
+                        <a href="https://ethereum.org/en/privacy-policy/" class="language-hover" style="color: black;">Privacy policy</a><br><br>
+                        <a href="https://ethereum.org/en/terms-of-use/" class="language-hover" style="color: black;">Terms of use</a><br><br>
+                        <a href="https://ethereum.org/en/cookie-policy/" class="language-hover" style="color: black;">Cookie policy</a><br><br>
+                        <a href="" class="language-hover" style="color: black;">Contact
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg>
+                        </a><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
